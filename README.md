@@ -1,11 +1,12 @@
 
+
 # Residual Networks
 ResNet is just a simple toolkit that allow you to make Residual Networks in simple way using command line
 
 **Requirements**
-- python 3.*
-- Numpy
-- pytorch 
+- [Python](https://www.python.org/) 3.*
+- [Numpy](http://www.numpy.org/)
+- [Pytorch](https://pytorch.org/)
 
 
 **Options that project support :**
