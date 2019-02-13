@@ -1,6 +1,7 @@
 
 
-# Residual Networks
+
+# ResNet
 ResNet is just a simple toolkit that allow you to make Residual Networks in simple way using command line
 
 **Requirements**
