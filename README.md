@@ -1,3 +1,4 @@
+
 # Residual Networks
 ResNet is just a simple toolkit that allow you to make Residual Networks in simple way using command line
 
@@ -39,7 +40,7 @@ there are two type of those functionality
 - number of classes that the model will classify between the 
 	Ex: `num_classes = 10`
 - data loader 
-	```
+	```py
 	def train_test_data_loader(path):
 	    """
 	    Function:
@@ -61,7 +62,7 @@ there are two type of those functionality
 	```
 ### **Optional**
 - custom image loader
-	```
+	```py
 	def custom_image_loader(path):
 	    """
 	    Function:
@@ -80,7 +81,7 @@ there are two type of those functionality
 	    return image
 	```
 - custom residual block
-	```
+	```py
 	class CutomBlock(nn.Module):
     
 	    expansion = None
@@ -100,7 +101,7 @@ there are two type of those functionality
 	```
 - training data transformation
 	Ex:
-	```
+	```py
 	train_transforms = transforms.Compose([transforms.RandomHorizontalFlip(),
                                       transforms.RandomRotation(10),
                                       transforms.RandomResizedCrop(224),
@@ -112,7 +113,7 @@ there are two type of those functionality
 	```
 - test data transformation
 	Ex: 
-	```
+	```py
 	test_transforms = transforms.Compose([transforms.Resize(255),
                                       transforms.CenterCrop(224),
                                       transforms.ToTensor(),
